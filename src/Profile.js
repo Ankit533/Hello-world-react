@@ -1,12 +1,14 @@
 import React from "react";
 
-export default function Profile() {
+export default function Profile(i) {
   const fun = () => {
     alert("Working");
   };
   return (
     <div>
-      <button onClick={fun}>Alert</button>
+      <p>{i.text}</p>
+      <p>{i.data.name}</p>
+      <button onClick={fun}>Click Me!!!</button>
     </div>
   );
 }
