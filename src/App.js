@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Home";
 import Profile from "./Profile";
+import NewTest from "./Test"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         
         <Home text="Text using Class Props" />
         <Profile text="Text using Function Props" data={{'name':'Ankit'}}/>
+        <NewTest />
       </header>
     </div>
   );
